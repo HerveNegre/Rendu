@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/AnimReactSpring/static/css/main.9b8e0bc3.chunk.css",
-    "main.js": "/AnimReactSpring/static/js/main.4a047f31.chunk.js",
-    "main.js.map": "/AnimReactSpring/static/js/main.4a047f31.chunk.js.map",
-    "runtime-main.js": "/AnimReactSpring/static/js/runtime-main.e031d2a8.js",
-    "runtime-main.js.map": "/AnimReactSpring/static/js/runtime-main.e031d2a8.js.map",
-    "static/js/2.e15eb2fe.chunk.js": "/AnimReactSpring/static/js/2.e15eb2fe.chunk.js",
-    "static/js/2.e15eb2fe.chunk.js.map": "/AnimReactSpring/static/js/2.e15eb2fe.chunk.js.map",
-    "index.html": "/AnimReactSpring/index.html",
-    "static/css/main.9b8e0bc3.chunk.css.map": "/AnimReactSpring/static/css/main.9b8e0bc3.chunk.css.map",
-    "static/js/2.e15eb2fe.chunk.js.LICENSE.txt": "/AnimReactSpring/static/js/2.e15eb2fe.chunk.js.LICENSE.txt"
+    "main.css": "/animReactSpring/static/css/main.9b8e0bc3.chunk.css",
+    "main.js": "/animReactSpring/static/js/main.4a047f31.chunk.js",
+    "main.js.map": "/animReactSpring/static/js/main.4a047f31.chunk.js.map",
+    "runtime-main.js": "/animReactSpring/static/js/runtime-main.accd06d2.js",
+    "runtime-main.js.map": "/animReactSpring/static/js/runtime-main.accd06d2.js.map",
+    "static/js/2.e15eb2fe.chunk.js": "/animReactSpring/static/js/2.e15eb2fe.chunk.js",
+    "static/js/2.e15eb2fe.chunk.js.map": "/animReactSpring/static/js/2.e15eb2fe.chunk.js.map",
+    "index.html": "/animReactSpring/index.html",
+    "static/css/main.9b8e0bc3.chunk.css.map": "/animReactSpring/static/css/main.9b8e0bc3.chunk.css.map",
+    "static/js/2.e15eb2fe.chunk.js.LICENSE.txt": "/animReactSpring/static/js/2.e15eb2fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e031d2a8.js",
+    "static/js/runtime-main.accd06d2.js",
     "static/js/2.e15eb2fe.chunk.js",
     "static/css/main.9b8e0bc3.chunk.css",
     "static/js/main.4a047f31.chunk.js"

@@ -11,6 +11,9 @@ export default function Navbar() {
             <Link to="/" className="list">
                 LIST
             </Link>
+            <Link to="/scroll" className="scroll">
+                SCROLL
+            </Link>
             <Link to="/disappear" className="disappear">
                 DISAPPEAR
             </Link>

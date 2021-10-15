@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import "./Disappear.css"
 import {animated, useTransition} from "react-spring"
 
-export default function Mount() {
+export default function Disappear() {
 
     const [vue, setVue] = useState(false);
 

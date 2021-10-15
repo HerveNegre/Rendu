@@ -10,8 +10,8 @@ export default function Anim() {
     useEffect(() => {
         setTimeout(() => {
             setFirstDisplay(false)
-        }, 1)
-    }, [])
+        }, 10000)
+    }, []);
 
     const [data, setData] = useState([
         {
@@ -53,11 +53,25 @@ export default function Anim() {
         <form onSubmit={handleData}>
             <label htmlFor="club">Indiquez votre destination favorite !</label>
             <input ref={inputRef} type="text" id="club" />
-            <ul>
-                {data.map((item) => (
-                    <li key={item.id}>{item.txt}</li>
-                ))}
-            </ul>
+            
+            {firstDisplay ? (
+                <ul>
+                    {data.map((item) => (
+                        <li key={item.id}>{item.txt}</li>
+                    ))}
+                </ul>
+
+            ) : (
+                <ul>
+                    {listAnim((styles, item) => {
+                        return (
+                            <animated.li style={styles}>
+                                {item.txt}
+                            </animated.li>
+                        )
+                    })}
+                </ul>
+            )}
         </form>
     );
 }
